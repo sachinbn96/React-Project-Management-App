@@ -89,6 +89,9 @@ function App() {
         projects: prev.projects.filter(
           (project) => project.id !== prev.selectedProjectId
         ),
+        tasks: prev.tasks.filter(
+          (task) => task.projectId !== prev.selectedProjectId
+        ),
       };
     });
   }

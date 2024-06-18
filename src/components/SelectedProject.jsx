@@ -36,6 +36,7 @@ export default function SelectedProject({
         handleAddTask={handleAddTask}
         handleDeleteTask={handleDeleteTask}
         tasks={tasks}
+        projectId={project.id}
       ></Tasks>
     </div>
   );
