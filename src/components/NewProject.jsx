@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 import Input from "./input";
-import Modal from "./modal";
+import Modal from "./Modal";
 
 export default function NewProject({
   handleSaveAddProject,
